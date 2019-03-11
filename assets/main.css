@@ -123,7 +123,19 @@ ul:not(.browser-default) li {
     border-radius: 50%;
 }
 
-.logo-image{max-width:215px}
+/**
+ * Document
+ */
+.document {
+    /* Set default font family to sans-serif. */
+    font-family: sans-serif;
+    font-size: 62.5%;
+    height: 100%;
+
+    /* Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
+    text-size-adjust: 100%;
+}
+
 /**
  * Page
  */
@@ -512,16 +524,32 @@ ul:not(.browser-default) li {
 }
 
 /**
- * Document
+ * Badge
  */
-.document {
-    /* Set default font family to sans-serif. */
-    font-family: sans-serif;
-    font-size: 62.5%;
-    height: 100%;
+.badge {
+    border-radius: 0.2em;
+    color: white;
+    display: inline-block;
+    font-family: Helvetica, arial, verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: 1.6em;
+    line-height: 1.6;
+    margin-bottom: 0.5em;
+    padding: 0 0.8em;
+    text-align: center;
+}
 
-    /* Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
-    text-size-adjust: 100%;
+.badge--blue {
+    background-color: var(--blue-lighter);
+}
+
+.badge--red {
+    background-color: var(--red);
+}
+
+.badge--green {
+    background-color: var(--green);
 }
 
 .contributors-list {
@@ -687,32 +715,4 @@ ul:not(.browser-default) li {
     }
 }
 
-/**
- * Badge
- */
-.badge {
-    border-radius: 0.2em;
-    color: white;
-    display: inline-block;
-    font-family: Helvetica, arial, verdana, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    height: 1.6em;
-    line-height: 1.6;
-    margin-bottom: 0.5em;
-    padding: 0 0.8em;
-    text-align: center;
-}
-
-.badge--blue {
-    background-color: var(--blue-lighter);
-}
-
-.badge--red {
-    background-color: var(--red);
-}
-
-.badge--green {
-    background-color: var(--green);
-}
-
+.logo-image{max-width:215px}

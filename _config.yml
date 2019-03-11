@@ -1,4 +1,6 @@
-exclude: [vendor]
+exclude: 
+    - vendor
+    - node_modules
 defaults:
     -
         scope:

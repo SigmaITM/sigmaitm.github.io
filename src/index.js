@@ -1,4 +1,4 @@
-import 'jquery';
-import '../node_modules/materialize-css/js/jquery.easing.1.4';
-import '../node_modules/materialize-css/js/collapsible';
+import '../node_modules/materialize-css/dist/js/materialize';
 import './app.css';
+
+M.AutoInit();

@@ -65,7 +65,11 @@ module.exports = {
                 'assets/*.{js,css}',
                 'images/*.{gif,jpg,jpeg,png,svg}'
             ],
-            swDest: path.join('.', 'sw.js'),
+            globIgnores: [
+                'assets/sw.js',
+                'assets/precache-manifest.*.js'
+            ],
+            swDest: path.join('../', 'sw.js'),
         })
     ]
 };
