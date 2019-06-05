@@ -51,7 +51,7 @@
     "husky": "2.0.0",
     "mini-css-extract-plugin": "0.6.0",
     "npm-run-all": "4.1.5",
-    "postcss": "7.0.15",
+    "postcss": "7.0.17",
     "postcss-cssnext": "3.1.0",
     "postcss-custom-media": "7.0.8",
     "postcss-import-url": "4.0.0",
