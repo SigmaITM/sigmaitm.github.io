@@ -61,7 +61,7 @@
     "stylelint": "10.1.0",
     "updtr": "3.1.0",
     "webpack": "4.35.0",
-    "webpack-cli": "3.3.5",
+    "webpack-cli": "3.3.6",
     "workbox-webpack-plugin": "4.3.1",
     "yaml-lint": "1.2.4"
   }
