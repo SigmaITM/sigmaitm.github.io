@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'github-pages'
+gem 'github-pages', '>= 198'
 gem 'jekyll'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
