@@ -2,8 +2,8 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'github-pages'
+gem 'github-pages', '>= 198'
 gem 'jekyll'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
-gem 'html-proofer'
+gem 'html-proofer', '>= 3.11.0'
