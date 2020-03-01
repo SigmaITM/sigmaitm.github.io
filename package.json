@@ -54,7 +54,7 @@
     "postcss": "7.0.17",
     "postcss-cssnext": "3.1.0",
     "postcss-custom-media": "7.0.8",
-    "postcss-import-url": "4.0.0",
+    "postcss-import-url": "5.0.0",
     "postcss-loader": "3.0.0",
     "postcss-reporter": "6.0.1",
     "style-loader": "0.23.1",
